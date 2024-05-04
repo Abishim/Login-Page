@@ -1,0 +1,80 @@
+body {
+    background-image: linear-gradient(135deg, rgba(107, 107, 107, 0.06) 0%, rgba(107, 107, 107, 0.06) 50%, rgba(202, 202, 202, 0.06) 50%, rgba(202, 202, 202, 0.06) 100%), linear-gradient(90deg, rgb(20, 20, 20), rgb(20, 20, 20));
+    background-size: 30px 30px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #f0f8ff;
+}
+
+.login-form {
+    text-align: center;
+    backdrop-filter: blur(4px);
+    width: 340px;
+    height: 400px;
+    margin: 90px auto;
+    border-radius: 20px 60px 20px 60px;
+    box-shadow: 1px 1px 40px rgb(255, 255, 255);
+}
+
+.login-form>h1 {
+    font-size: 60px;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 0px;
+}
+
+.login-form>form>label {
+    font-size: 20px;
+    padding-top: 10px;
+    display: block;
+}
+
+.login-form>form>input {
+    color: #f0f8ff;
+    background-color: #ffffff28;
+    border-radius: 40px 60px 40px 60px;
+    width: 250px;
+    height: 30px;
+    margin: 10px auto;
+    padding-left: 10px;
+    font-size: large;
+    outline: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.login-form>form>input::placeholder {
+    font-size: large;
+    color: #f0f8ff;
+}
+
+.login-form>form>.subtim-button {
+    width: 30%;
+    color: #f0f8ff;
+}
+
+.login-form>form>.subtim-button:hover {
+    transition: 0.5s;
+    border-radius: 60px 40px 60px 40px;
+    background-color: #f0f8ff;
+    color: black;
+}
+
+.login-form>form>p {
+    font-size: 15px;
+    padding-top: 10px;
+    display: block;
+}
+
+/*
+    Hello,
+
+    As I'm relatively new to projects like this,
+    I may make mistakes along the way,
+    but I'm always open to learning and improving.
+    I'm excited to gain experience through this project
+    and look forward to pushing myself further with
+    your constructive feedback.
+
+    Thank you,
+
+    Abishim :)
+*/
